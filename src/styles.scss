@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo", sans-serif;
+  // font-weight: 800;
+}
+
+.ms-fill {
+  flex: auto 1 1;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsl(240, 50%, 60%);
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333399;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff00cc;
+}
